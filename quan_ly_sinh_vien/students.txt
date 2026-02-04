@@ -7,3 +7,12 @@ Họ tên: lê hai phat
 Điểm TB: PT.2f
 =================
 
+=== SINH VIÊN ===
+Mã SV: 66132735
+Họ tên: lê hải phát
+Điểm Toán: 7.0
+Điểm Lý: 8.0
+Điểm Hóa: 9.0
+Điểm TB: 8.00
+=================
+

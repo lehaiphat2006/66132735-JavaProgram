@@ -42,10 +42,10 @@ public class Quan_ly_sinh_vien {
             writer.write("=== SINH VIÊN ===\n");
             writer.write("Mã SV: " + id + "\n");
             writer.write("Họ tên: " + name + "\n");
-            writer.write(String.format("Điểm Toán: PT.1f\n", math));
-            writer.write(String.format("Điểm Lý: PT.1f\n", physics));
-            writer.write(String.format("Điểm Hóa: PT.1f\n", chemistry));
-            writer.write(String.format("Điểm TB: PT.2f\n", average));
+            writer.write(String.format("Điểm Toán: %.1f\n", math));
+            writer.write(String.format("Điểm Lý: %.1f\n", physics));
+            writer.write(String.format("Điểm Hóa: %.1f\n", chemistry));
+            writer.write(String.format("Điểm TB: %.2f\n", average));
             writer.write("=================\n\n");
             writer.close();
             
