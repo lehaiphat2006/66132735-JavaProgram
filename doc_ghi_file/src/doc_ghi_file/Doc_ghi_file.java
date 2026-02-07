@@ -7,9 +7,11 @@ public class Doc_ghi_file {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		try {
+			Scanner c=new Scanner(System.in);
 			FileWriter fw=new FileWriter("docghifile.txt",true);
+			String nd=c.nextLine();
 				fw.write("nhật ký:\n");
-				fw.write("em tên là Lê Hải Phát.Lớp 66.CNTT1.Sinh sống tại Nha Trang,Khánh Hòa.Hiện đang học Java\n");
+				fw.write(nd+ "\n");
 				fw.close();
 				
 			Scanner docfile=new Scanner(new java.io.File("docghifile.txt"));
