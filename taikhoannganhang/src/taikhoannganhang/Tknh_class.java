@@ -22,10 +22,10 @@ public class Tknh_class {
     
  
     
-    void chuyentien(Tknh_class tkk_class, double sotien) {
+    void chuyentien(Tknh_class tkk, double sotien) {
     	if(sotien>0 && sotien<=soDu) {
     		soDu-=sotien;
-    		tkk_class.soDu+=sotien;
+    		tkk.soDu+=sotien;
     		System.out.println("chuyen tien thanh cong.");
     	}else {
     		System.out.println("chuyen tien khong thanh cong.");
