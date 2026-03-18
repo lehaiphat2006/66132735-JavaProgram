@@ -26,7 +26,7 @@ public class Sinhvienclass {
 	    
 	    // GETTER - Lấy giá trị thuộc tính
 	    public String getTen() {
-	        return ten;
+	       return ten;
 	    }
 	    
 	    public int getTuoi() {

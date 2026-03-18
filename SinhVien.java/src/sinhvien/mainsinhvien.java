@@ -27,7 +27,7 @@ public class mainsinhvien {
 		        sv3.setTuoi(15);  // Tuổi không hợp lệ
 		        sv3.setDiemTB(12.5);  // Điểm không hợp lệ
 		        sv3.setMaSV("ABC123");  // Mã SV không hợp lệ
-		        sv3.setTen(" ");
+		        sv3.setTen(" ");//ten khong hop le
 		        
 		        // Truy cập thông qua getter
 		        System.out.println("\nTên sv1: " + sv1.getTen());
