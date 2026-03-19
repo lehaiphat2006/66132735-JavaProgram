@@ -10,9 +10,9 @@ public class Nhanvien {
 //		luongcoban=1000;
 //	}
 	public Nhanvien(String maNhanVien,String tenNhanVien,double luongCB) {
-		maNV=maNhanVien;
-		hoTen=tenNhanVien;
-		luongcoban=luongCB;
+		this.maNV=maNhanVien;
+		this.hoTen=tenNhanVien;
+		this.luongcoban=luongCB;
 	}
 	public Nhanvien() {
 		super();
