@@ -87,7 +87,7 @@ public class Main {
 		//xoa hoc sinh ten "Hoa" dau tien trong danh sach
 		for(int i=0;i<dshs.size();i++) {
 			HocSinh hs=dshs.get(i);
-			if(hs.getTenHS()=="Hoa") {
+			if(hs.getTenHS().trim().equalsIgnoreCase("Hoa")) {
 				dshs.remove(hs);
 				break;
 			}
