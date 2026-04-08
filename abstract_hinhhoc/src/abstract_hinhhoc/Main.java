@@ -23,13 +23,13 @@ public class Main {
 				System.out.println("nhap mau sac:");
 				String ms=nc.nextLine();
 				HinhHoc h1 =new HinhTron(ms,r);
-				double dientich=h1.tinhDienTich();
-				double chuvi=h1.tinhChuVi();
+				double dk = ((HinhTron) h1).tinhDuongKinh();
+				System.out.println("duong kinh:"+dk);
 				System.out.println("nhap ty le:");
 				double tl=nc.nextDouble();
-				
 				h1.phongTo(tl);
 				h1.hienThiThongTin();
+				
 				hv.add(h1);
 			}
 			if (chon==2) {
@@ -40,8 +40,8 @@ public class Main {
 				System.out.println("nhap mau sac:");
 				String ms=nc.nextLine();
 				HinhHoc h2 =new HinhVuong(ms, c);
-				double dientich=h2.tinhDienTich();
-				double chuvi=h2.tinhChuVi();
+				double dc = ((HinhVuong) h2).tinhDuongCheo();
+				System.out.println("duong cheo:"+dc);
 				System.out.println("nhap ty le:");
 				double tl=nc.nextDouble();
 				h2.phongTo(tl);
