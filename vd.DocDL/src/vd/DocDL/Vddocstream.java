@@ -20,7 +20,7 @@ public class Vddocstream {
 		//in ra dong doc duoc
 //		System.out.print(lineDocDL);
 		
-		//doc du lieu tu file 
+		//doc 1 dong du lieu tu file van ban
 		//khai bao bien doi tuong doc file
 		FileInputStream finput=new FileInputStream("bai doc file.txt");
 		//khai bao bien doi tuong inputstreamreader
