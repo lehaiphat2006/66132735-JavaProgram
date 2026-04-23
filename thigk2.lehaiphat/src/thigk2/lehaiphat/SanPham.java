@@ -61,7 +61,20 @@ public class SanPham {
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		ArrayList<SanPham> ds=new ArrayList<>();
+		Scanner nc=new Scanner(System.in);
+		//hard code 3 sản phẩm
+		ds.add(new SanPham("SP01","Sua","Thuc pham",20000));
+		ds.add(new SanPham("SP02","Thuoc da day","Thuc pham chuc nang",50000));
+		ds.add(new SanPham("SP03","Coca-Cola","Do uong",15000));
+		//in danh sach ban dau
+		System.out.println("danh sach ban dau:");
+		for(SanPham sp:ds) {
+			sp.Xuat();
+		}
+		//thêm 1 sản phẩm
+		System.out.println("Nhập sản phẩm mới:");
+		
 	}
 
 }
