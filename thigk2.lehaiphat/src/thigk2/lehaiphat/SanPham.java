@@ -74,7 +74,26 @@ public class SanPham {
 		}
 		//thêm 1 sản phẩm
 		System.out.println("Nhập sản phẩm mới:");
-		
+		System.out.println("mã sp:");
+		String masp= nc.nextLine();
+		System.out.println("tên sp:");
+		String tensp= nc.nextLine();
+		System.out.println("loại sp:");
+		String loaisp= nc.nextLine();
+		System.out.println("giá sp:");
+		double gia= nc.nextDouble();
+		ds.add(new SanPham(masp,tensp,loaisp,gia));
+		//in lại danh sách
+		System.out.println("\nDanh sach sau khi them:");
+        for (SanPham sp : ds) {
+            sp.Xuat();
+        }
+		//lọc sản phẩm loại"thực phẩm chức năng"
+        System.out.println("sản phẩm loại <thực phẩm chức năng>:");
+        for(SanPham sp:ds) {
+        	if (sp.getLoaisp().equalsIgnoreCase("thuc pham chuc nang")) {
+                sp.Xuat();
+        }
 	}
-
+	}
 }

@@ -1,6 +1,11 @@
 package thigk2.lehaiphat;
 import java.util.Scanner;
 public class HinhChuNhat {
+	// Nhập tọa độ 2 điểm của hình chữ nhật
+	// Tính chiều dài = |x2 - x1|, chiều rộng = |y1 - y2|
+	// Tính chu vi = 2 * (dài + rộng)
+	// Tính diện tích = dài * rộng
+	// In kết quả ra màn hình
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
