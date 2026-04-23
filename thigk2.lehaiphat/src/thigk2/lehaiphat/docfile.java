@@ -24,7 +24,8 @@ public class docfile {
 	        	line = line.trim(); // xóa khoảng trắng
 
 	            if (!line.isEmpty()) { // bỏ qua dòng rỗng
-	                ds.add(Double.parseDouble(line));
+	            	 System.out.println("Dang doc: " + line);
+	                ds.add(Double.parseDouble(line));}
 	        }
 	        br.close();
 	        
