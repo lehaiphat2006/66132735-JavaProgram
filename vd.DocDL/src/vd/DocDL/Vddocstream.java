@@ -19,7 +19,7 @@ public class Vddocstream {
 //		String lineDocDL = buffReader.readLine();
 		//in ra dong doc duoc
 //		System.out.print(lineDocDL);
-		
+//		
 		//doc 1 dong du lieu tu file van ban
 		//khai bao bien doi tuong doc file
 		FileInputStream finput=new FileInputStream("bai doc file.txt");
@@ -27,7 +27,7 @@ public class Vddocstream {
 		InputStreamReader ipReader =new InputStreamReader(finput);
 		//khai bao bien doi tutong buffer
 		BufferedReader buffReader =new BufferedReader(ipReader);
-		//doc 1 dong du lieu tu file,cat bien vao chuoi
+//		doc 1 dong du lieu tu file,cat bien vao chuoi
 		String lineDocD1 = buffReader.readLine();
 		//in ra dong doc duoc
 		System.out.println(lineDocD1);
