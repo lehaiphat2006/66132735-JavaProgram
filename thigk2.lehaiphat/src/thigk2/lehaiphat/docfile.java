@@ -25,9 +25,11 @@ public class docfile {
 
 	            if (!line.isEmpty()) { // bỏ qua dòng rỗng
 	            	 System.out.println("Dang doc: " + line);
-	                ds.add(Double.parseDouble(line));}
+	                ds.add(Double.parseDouble(line));
+	                }
 	        }
 	        br.close();
+	        
 	        
 	        //in danh sách
 	        System.out.println("danh sach so:");
@@ -53,5 +55,5 @@ public class docfile {
 	        	
 	        }
 	}
-	}
 }
+
