@@ -12,6 +12,6 @@ lưu bài tập
 ---
 
 ## Hình ảnh ứng dụng
-![Hình ảnh ví dụ](Screenshot 2026-05-17 163444.png)
+![Hình ảnh ví dụ]()
 
 ---
