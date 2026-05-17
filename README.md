@@ -7,7 +7,7 @@ lưu bài tập
 - Tính BMI
 - Phân loại cơ thể
 
-[Chi tiết source code](/)
+[Chi tiết source code](tinhBMI_javafx)
 
 ---
 
