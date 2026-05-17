@@ -12,6 +12,6 @@ lưu bài tập
 ---
 
 ## Hình ảnh ứng dụng
-![Hình ảnh ví dụ]()
+![Hình ảnh ví dụ](tinh-bmi-javafx.png)
 
 ---
